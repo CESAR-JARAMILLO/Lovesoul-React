@@ -1,5 +1,5 @@
 .App-header {
-  background-image: url('../public/images/studio.jpg');
+  background-image: url('./images/studio.jpg');
   background-size: cover;
   background-position: center center;
   height: 100vh;
