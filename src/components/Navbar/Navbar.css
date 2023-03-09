@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.links {
+  display: none;
+}
+
+.links li {
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-right: auto;
+  }
+
+  .icon-toggle {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .links li {
+    margin: 0 20px;
+  }
+  .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
