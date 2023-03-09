@@ -11,6 +11,10 @@ nav {
   color: #fff;
 }
 
+.icon-toggle:hover {
+  cursor: pointer;
+}
+
 .links {
   display: none;
 }
@@ -40,5 +44,6 @@ nav {
   .links a {
     color: #fff;
     text-decoration: none;
+    text-transform: capitalize;
   }
 }
