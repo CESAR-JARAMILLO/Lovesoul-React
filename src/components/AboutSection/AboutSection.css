@@ -1,0 +1,24 @@
+.about-section {
+  text-align: center;
+  margin: 96px 24px;
+}
+
+.about-section
+img {
+  height: 224px;
+}
+
+.about-section
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 46px 0 24px 0;
+}
+
+.about-section
+p {
+  line-height: 25px;
+  color: #8c8c8c;
+}
