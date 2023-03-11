@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import AboutSection from './components/AboutSection/AboutSection'
+import ArtistSection from './components/ArtistSection/ArtistSection'
 
 function App() {
   const [isHamburgerClicked, setIsHamburgerClicked] = useState(false);
@@ -41,6 +42,7 @@ function App() {
         </header>
       </div>
       <AboutSection />
+      <ArtistSection />
     </div>
   );
 }

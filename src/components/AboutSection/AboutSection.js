@@ -5,7 +5,7 @@ import image from '../../images/vinyl.jpg'
 function AboutSection() {
   return (
     <section className='about-section'>
-      <img src={image} />
+      <img src={image} alt='vinyl' />
 
       <h2>THE LEADER IN INTERACTIVE MUSIC STUDIO EXPERIENCES</h2>
 
