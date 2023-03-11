@@ -1,0 +1,42 @@
+.artist-section {
+  /* padding: 96px 0; */
+  text-align: center;
+  /* width: 100%; */
+  background-color: #fff;
+}
+
+.artist-section
+h2 {
+  color: #030303;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.artist-section
+.img-container {
+  position: relative;
+  height: 360px;
+  margin: 12px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.artist-section
+.img-container:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.artist-section
+img {
+  height: 100%;
+  text-align: center;
+}
+
+.artist-section
+img:hover {
+  opacity: 30%;
+}
