@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import AboutSection from './components/AboutSection/AboutSection'
 import ArtistSection from './components/ArtistSection/ArtistSection'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [isHamburgerClicked, setIsHamburgerClicked] = useState(false);
@@ -43,6 +44,7 @@ function App() {
       </div>
       <AboutSection />
       <ArtistSection />
+      <Footer />
     </div>
   );
 }
